@@ -1,0 +1,34 @@
+{
+  "name": "cordova-is-background",
+  "version": "1.0.0",
+  "description": "Utility function for finding out if the application is in the background or not",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run build",
+    "build": "babel src -d lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perrin4869/cordova-is-background.git"
+  },
+  "keywords": [
+    "cordova",
+    "background"
+  ],
+  "author": "Julian Grinblat <julian@dotcore.co.il>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perrin4869/cordova-is-background/issues"
+  },
+  "homepage": "https://github.com/perrin4869/cordova-is-background#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.10.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
