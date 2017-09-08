@@ -1,6 +1,6 @@
 {
   "name": "cordova-is-background",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utility function for finding out if the application is in the background or not",
   "main": "lib/index.js",
   "scripts": {
