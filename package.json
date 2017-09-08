@@ -5,7 +5,10 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run build",
-    "build": "babel src -d lib"
+    "lint": "eslint src/*.js",
+    "prebuild": "npm run lint",
+    "build": "babel src -d lib",
+    "prepare": "npm run build"
   },
   "files": [
     "lib"
